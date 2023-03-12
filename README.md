@@ -10,5 +10,7 @@
 -   `php artisan serve` - запускает веб-сервер PHP, который будет обрабатывать запросы к вашему Laravel-приложению.
 
 ## Изменить файл config для подключения к БД
-
+![](https://github.com/MishynMykhailo/Laravel-book-library/blob/main/readmeImages/configSetting.jpg)
 ## Демонстрация
+![](https://github.com/MishynMykhailo/Laravel-book-library/blob/250bf6eecfa6942f3e016c92e952fef698fdf277/readmeImages/allAuthor.jpg)
+![](https://github.com/MishynMykhailo/Laravel-book-library/blob/250bf6eecfa6942f3e016c92e952fef698fdf277/readmeImages/authorCreate.jpg)
