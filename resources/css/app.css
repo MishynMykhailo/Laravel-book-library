@@ -424,16 +424,30 @@ padding: 15px;
     .book-filter{
         display: flex;
     }
+    .author-filter{
+        display: flex;
+    }
     .book-filter > form{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .author-filter >form{
         flex-direction: column;
         gap: 10px;
     }
 }
 @media screen and (min-width: 768px) {
-    .book-filter{
+    .book-filter {
+        display: flex;
+    }
+    .author-filter{
         display: flex;
     }
     .book-filter > form{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .author-filter >form{
         flex-direction: column;
         gap: 10px;
     }
@@ -442,10 +456,20 @@ padding: 15px;
     .book-filter{
         display: block;
     }
+    .author-filter{
+        display: block;
+    }
     .book-filter > form{
         flex-direction: row;
         justify-content: end;
     }
+    .author-filter > form{
+        flex-direction: row;
+        justify-content: end;
+    }
+}
+.author-filter{
+    margin-top: 15px;
 }
 .book-filter >form{
     display: flex;
